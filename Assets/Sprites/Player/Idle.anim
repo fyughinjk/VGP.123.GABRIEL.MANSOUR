@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Jump anim
+  m_Name: Idle
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,7 +21,7 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -1377154278, guid: ccf586c0b0526a847a587837a07903ed, type: 3}
+      value: {fileID: 1070071243, guid: ccf586c0b0526a847a587837a07903ed, type: 3}
     - time: 60
       value: {fileID: 1070071243, guid: ccf586c0b0526a847a587837a07903ed, type: 3}
     attribute: m_Sprite
@@ -46,7 +46,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -1377154278, guid: ccf586c0b0526a847a587837a07903ed, type: 3}
+    - {fileID: 1070071243, guid: ccf586c0b0526a847a587837a07903ed, type: 3}
     - {fileID: 1070071243, guid: ccf586c0b0526a847a587837a07903ed, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2

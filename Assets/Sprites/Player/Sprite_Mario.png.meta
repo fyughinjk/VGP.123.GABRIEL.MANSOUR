@@ -1236,7 +1236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_53
+      name: JumpAttack 1
       rect:
         serializedVersion: 2
         x: 184
@@ -1257,7 +1257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_54
+      name: JumpAttack 2
       rect:
         serializedVersion: 2
         x: 218
@@ -1278,7 +1278,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_55
+      name: JumpAttack 3
       rect:
         serializedVersion: 2
         x: 253
@@ -1299,7 +1299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_56
+      name: JumpAttack 4
       rect:
         serializedVersion: 2
         x: 286
@@ -1320,7 +1320,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_57
+      name: JumpAttack 5
       rect:
         serializedVersion: 2
         x: 315
@@ -1341,7 +1341,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_58
+      name: JumpAttack 6
       rect:
         serializedVersion: 2
         x: 345
@@ -1414,6 +1414,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      JumpAttack 1: 877810204
+      JumpAttack 2: 1788110193
+      JumpAttack 3: 468940340
+      JumpAttack 4: 1665201200
+      JumpAttack 5: 1237001635
+      JumpAttack 6: -1068713413
       Mario Attack 1: 984198521
       Mario Attack 2: 1760909529
       Mario Attack 3: 98056087
@@ -1465,12 +1471,6 @@ TextureImporter:
       Sprite_Mario_50: -914455468
       Sprite_Mario_51: -587809711
       Sprite_Mario_52: -1137281519
-      Sprite_Mario_53: 877810204
-      Sprite_Mario_54: 1788110193
-      Sprite_Mario_55: 468940340
-      Sprite_Mario_56: 1665201200
-      Sprite_Mario_57: 1237001635
-      Sprite_Mario_58: -1068713413
       Sprite_Mario_59: 552563613
       Sprite_Mario_60: 595951081
       Sprite_Mario_7: -1274039605
