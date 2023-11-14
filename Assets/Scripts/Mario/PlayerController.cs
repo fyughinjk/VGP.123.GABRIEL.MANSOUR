@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Rigidbody2D), typeof(SpriteRenderer), typeof(Animator))]
 public class PlayerController : MonoBehaviour
 {
     // Component References
     Rigidbody2D rb;
-    SpriteRenderer sr; 
+    SpriteRenderer sr;
+    Animator anim;
 
     // Movement Variables
     public float speed = 5.0f;
@@ -25,11 +26,13 @@ public class PlayerController : MonoBehaviour
         // Getting Our Component References
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
 
 
         //Checking variables for Dirty Data
         if (rb == null) Debug.Log("No Rigidbody Reference");
         if (sr == null) Debug.Log("No Sprite Renderer Reference");
+        if (anim == null) Debug.Log("No Animator Reference");
 
         if (groundCheckRadius <=0)
         {
@@ -73,5 +76,8 @@ public class PlayerController : MonoBehaviour
 
         Vector2 moveDirection = new Vector2(hInput * speed, rb.velocity.y);
         rb.velocity = moveDirection;
+
+        anim.SetFloat("hInput", Mathf.Abs(hInput));
+        anim.SetBool("isGrounded", isGrounded);
     }
 }

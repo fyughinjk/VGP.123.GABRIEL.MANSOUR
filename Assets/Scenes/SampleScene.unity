@@ -1229,6 +1229,7 @@ GameObject:
   - component: {fileID: 1311271828}
   - component: {fileID: 1311271831}
   - component: {fileID: 1311271832}
+  - component: {fileID: 1311271833}
   m_Layer: 0
   m_Name: Mario
   m_TagString: Untagged
@@ -1395,6 +1396,27 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   groundCheckRadius: 0.02
+--- !u!95 &1311271833
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311271827}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5293c76436f76be40a10bb607cf3dbcb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1368710680
 GameObject:
   m_ObjectHideFlags: 0
