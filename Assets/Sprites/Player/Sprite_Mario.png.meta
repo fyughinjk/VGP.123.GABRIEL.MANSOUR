@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ccf586c0b0526a847a587837a07903ed
+guid: 39cdf08ec0e248c41b51923ae815ec17
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 22
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,7 +81,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -94,7 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Standalone
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mario Idle
+      name: MarioWalk1
       rect:
         serializedVersion: 2
         x: 3
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ad09b5462f9ad144a393ca48702d50f
-      internalID: 1070071243
+      spriteID: 710ae79d4ce29d243acf167cf406258c
+      internalID: 1128307663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Walk 1
+      name: MarioWalk2
       rect:
         serializedVersion: 2
         x: 20
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1f4cdb0357e2bc4b81e2756c8b39ec5
-      internalID: 964352596
+      spriteID: 1547b3db4a4dd4147b2a0bc7ebb15ad0
+      internalID: 1269329684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Walk 2
+      name: MarioWalk3
       rect:
         serializedVersion: 2
         x: 37
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d995edb6239002498fb02d80bd0e702
-      internalID: -1732618288
+      spriteID: 8c014edb82cf1e9438262c79f3206228
+      internalID: -418293480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Walk 3
+      name: Sprite_Mario_3
       rect:
         serializedVersion: 2
         x: 54
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf63d64a758e1b547a01c5cb1f72b218
-      internalID: -2109461655
+      spriteID: 89825bd435486d1419039c380afa22e8
+      internalID: -1367110842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Walk 4
+      name: Sprite_Mario_4
       rect:
         serializedVersion: 2
         x: 71
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 950f5036c08afe3479d322b1316353a5
-      internalID: -666243095
+      spriteID: f6e3d1e454115b24dacf9eaef6b80466
+      internalID: -1977844920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Walk 5
+      name: Sprite_Mario_5
       rect:
         serializedVersion: 2
         x: 88
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e20f3cbd215b89a479b339c74f022ad6
-      internalID: 1387550963
+      spriteID: a4dc6c74d61eb5f4cb727c9cc16af7e9
+      internalID: 91120079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Walk 6
+      name: Sprite_Mario_6
       rect:
         serializedVersion: 2
         x: 107
@@ -263,8 +263,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b6e0df7d3847c9489347de07d21e346
-      internalID: -45170962
+      spriteID: 3984e7323e8a4a6429c7d518713a29eb
+      internalID: -1829725815
       vertices: []
       indices: 
       edges: []
@@ -274,7 +274,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 125
-        y: 76
+        y: 77
         width: 16
         height: 25
       alignment: 7
@@ -284,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3aaaa98cf3bfb984abc0780b17f4e426
-      internalID: -1274039605
+      spriteID: ef546a055efb26c4b8cb4f38e15bd773
+      internalID: -723055582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Jump
+      name: MarioJump
       rect:
         serializedVersion: 2
         x: 144
@@ -305,8 +305,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67a57fd72cb4ce144a011fd62934bb5c
-      internalID: -1377154278
+      spriteID: 0ba4502830ad7414299f4f4cf331fc0d
+      internalID: 1756898110
       vertices: []
       indices: 
       edges: []
@@ -326,8 +326,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0671fa99b6b9141428d7f9cc2101baf3
-      internalID: -398171589
+      spriteID: 2224ce10cab1adf43a7c320eb041638a
+      internalID: -825123566
       vertices: []
       indices: 
       edges: []
@@ -347,8 +347,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76840eef8ddc8164184ba399d84f47da
-      internalID: -1253566269
+      spriteID: 3ea4491417cad4c45a6cdf61259ebb3b
+      internalID: -1320532403
       vertices: []
       indices: 
       edges: []
@@ -368,8 +368,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b11d0e48283bd14fbcf2c7c35f32951
-      internalID: -112003573
+      spriteID: 6e369a715c88eba43ad2e82c356ad871
+      internalID: 220898447
       vertices: []
       indices: 
       edges: []
@@ -389,8 +389,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f9042935e330fc4fb34da0409f3e356
-      internalID: 1695233379
+      spriteID: f1cfabd3a08381c4281c07a216120f00
+      internalID: -1941689222
       vertices: []
       indices: 
       edges: []
@@ -410,8 +410,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21e08a8f427fa8f4fb149c57d78fab03
-      internalID: 440683464
+      spriteID: 276f7357ac001d746b4d13e898a95c17
+      internalID: 1493511863
       vertices: []
       indices: 
       edges: []
@@ -431,8 +431,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad043236b371aa34191d990dd58e5775
-      internalID: 1377979241
+      spriteID: 57ab20492f01fce40b2e6584786c953f
+      internalID: -600930132
       vertices: []
       indices: 
       edges: []
@@ -452,8 +452,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70600d6c35cfa4c4a85267003752c0f2
-      internalID: -1471603831
+      spriteID: c108e2236ac9d4c43aa542dc9bde1d24
+      internalID: 102059860
       vertices: []
       indices: 
       edges: []
@@ -473,8 +473,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ceae03566d95554c81e0c94387f1429
-      internalID: 294983345
+      spriteID: 7e99bbad37f242b4d8362f4f607fa373
+      internalID: -1238790553
       vertices: []
       indices: 
       edges: []
@@ -494,8 +494,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abba8787cfa3ecb4fab59ab16195fe33
-      internalID: -252882349
+      spriteID: baad7d07bb489894585bb22804ec9067
+      internalID: 488318157
       vertices: []
       indices: 
       edges: []
@@ -515,8 +515,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2718e2bf409ff5a49916613428d1d0e8
-      internalID: -747044575
+      spriteID: abb63162fc3eb9e49996913c7e0adbcd
+      internalID: 876138087
       vertices: []
       indices: 
       edges: []
@@ -536,8 +536,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2cb4ebee460a9d488c2827651f134ce
-      internalID: 1831461464
+      spriteID: f378fb77ec385bd45b832b0f5d91d9fb
+      internalID: -69035351
       vertices: []
       indices: 
       edges: []
@@ -557,8 +557,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99b45e3ebf0c8ac48a55c64a908938fd
-      internalID: 1154713791
+      spriteID: 2bd69fd63851d074faa70fa623c9d212
+      internalID: -1087013856
       vertices: []
       indices: 
       edges: []
@@ -578,8 +578,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 348f13f6e38d0a64caaf36cb5d1a60a8
-      internalID: -446980800
+      spriteID: 709a54c6a5e800a4b9d63fe2de330d00
+      internalID: 1785340787
       vertices: []
       indices: 
       edges: []
@@ -599,8 +599,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f56d4b66e65f0647b58012b80df452f
-      internalID: -949096939
+      spriteID: 09a1b5bc71cfaf74398c163a54df978a
+      internalID: -2081056595
       vertices: []
       indices: 
       edges: []
@@ -620,8 +620,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 210dd84443fcfe7449cd6acd600cad51
-      internalID: -674564692
+      spriteID: bebea1874bbc7b04abb8149e73c8fe0b
+      internalID: 1870941526
       vertices: []
       indices: 
       edges: []
@@ -641,8 +641,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38f2bd0f7b7218943a489cf2d8dd9df1
-      internalID: -1022175910
+      spriteID: 99d34e28dfeb751409719926c6829f9e
+      internalID: -787441596
       vertices: []
       indices: 
       edges: []
@@ -662,8 +662,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48182cb6c0bffe64a970ef7104d3ee53
-      internalID: 701333914
+      spriteID: 33e103a45d2dac547b2854855814e590
+      internalID: -855528564
       vertices: []
       indices: 
       edges: []
@@ -683,8 +683,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e30a5e587dbfd440a867cf569f26205
-      internalID: -1867965
+      spriteID: 6403a949ab1952f428d16cd7ccbaf05e
+      internalID: 190784802
       vertices: []
       indices: 
       edges: []
@@ -704,8 +704,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8da64c721fa012f4ab2719b4106fe9ee
-      internalID: 1626822018
+      spriteID: 0a5137a36fc4e3c49b7074d64916d300
+      internalID: 1252724527
       vertices: []
       indices: 
       edges: []
@@ -725,8 +725,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74fbb5ee8b5ae544dbf80652c7744230
-      internalID: -775899314
+      spriteID: 193a26a7bb852dd4da65514c5f06c0f7
+      internalID: 1628079826
       vertices: []
       indices: 
       edges: []
@@ -746,8 +746,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e02a7560b844f541bcd2c6bb2713d3a
-      internalID: 2080283530
+      spriteID: 0ddec4c817adec14d9030315bae28f00
+      internalID: -1980888037
       vertices: []
       indices: 
       edges: []
@@ -767,8 +767,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07695941381a0ba42b6fff3dbe4b656d
-      internalID: 1183395338
+      spriteID: 0832044803fb07d4ab1f8ae68ae5c89f
+      internalID: -1721188502
       vertices: []
       indices: 
       edges: []
@@ -788,8 +788,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76166d44d63f49b49921f2605b8e4777
-      internalID: -2111978834
+      spriteID: bb02ec6fd10e7e44c904fb7f5348b4ec
+      internalID: -1678788709
       vertices: []
       indices: 
       edges: []
@@ -809,8 +809,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e904b67bf834244db7aa2d3cb69e1a1
-      internalID: -1750171462
+      spriteID: 82ae61719d6dd554887638e342cc680b
+      internalID: -674560971
       vertices: []
       indices: 
       edges: []
@@ -830,8 +830,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d90170d9b4e46540baf5fd051d1e3cf
-      internalID: 735723591
+      spriteID: 6dc2eef2e7b16784094c7b628644c199
+      internalID: 265483416
       vertices: []
       indices: 
       edges: []
@@ -851,8 +851,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ef3ab88fae976c47b9a545c3d09323e
-      internalID: -1751635843
+      spriteID: 6bd6fa63edab160488f7acfe76b57ed5
+      internalID: -1415814737
       vertices: []
       indices: 
       edges: []
@@ -872,8 +872,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be362f50609d3a3439cd60b8b6b4f110
-      internalID: -123146267
+      spriteID: 38c1c8dcb8ece964bb8f3ca8be244e0a
+      internalID: 727922480
       vertices: []
       indices: 
       edges: []
@@ -893,8 +893,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86d1ed39726f2884fa660923e7667ee2
-      internalID: 764258658
+      spriteID: 8d6b9ec2e068c274e997abf0df9c32a9
+      internalID: 1950146717
       vertices: []
       indices: 
       edges: []
@@ -914,8 +914,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43dc38be675386e4fbf7688b0dd96b63
-      internalID: -1932412095
+      spriteID: 84a5fefb68aefa24cb93acfcec85296c
+      internalID: 2036299052
       vertices: []
       indices: 
       edges: []
@@ -935,8 +935,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d0918f1b4bac2c4c93975dd2dd78294
-      internalID: 1182605277
+      spriteID: 43f5b33547799e94cbfef9b888cbde7f
+      internalID: -188971596
       vertices: []
       indices: 
       edges: []
@@ -956,8 +956,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1c8dda1501c76d44840d750fd8cf0b5
-      internalID: -469312516
+      spriteID: de366acc1076b1e4c95632b8941bcb42
+      internalID: 1145324717
       vertices: []
       indices: 
       edges: []
@@ -977,8 +977,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3cf71ffa9a67f5459b20d1f488cd171
-      internalID: 149002912
+      spriteID: 8199e2531b0964f4da2d4d638c2da8e8
+      internalID: 283787312
       vertices: []
       indices: 
       edges: []
@@ -998,8 +998,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9aba7792d9e82a94aa1d6dffd9b3fcd1
-      internalID: -1976541753
+      spriteID: ffab954bc40c1ae45bd007a8dc6fde2e
+      internalID: 1071243907
       vertices: []
       indices: 
       edges: []
@@ -1019,8 +1019,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3553c48579ffbb7499bfe0514af442fa
-      internalID: -1943155775
+      spriteID: e13cd0b32953ead4b8f72316a928b5b8
+      internalID: -1793286311
       vertices: []
       indices: 
       edges: []
@@ -1040,8 +1040,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b92e9e0bf930e34594e002f06c1cd8e
-      internalID: -1208888732
+      spriteID: b506fba5826b1814c9fb0268d95ac682
+      internalID: 1737570806
       vertices: []
       indices: 
       edges: []
@@ -1061,8 +1061,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7ce34ea9fca7d04f99190d8b1d28210
-      internalID: 326634251
+      spriteID: 906a378c3a9ddf6448518fba94249e60
+      internalID: -466241957
       vertices: []
       indices: 
       edges: []
@@ -1082,8 +1082,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69e831d61a6263349964066aeecdd060
-      internalID: -925898548
+      spriteID: 197fb5e0fdaf52d48a549933a7d6fa23
+      internalID: -1475012496
       vertices: []
       indices: 
       edges: []
@@ -1103,14 +1103,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ed32789d903fcb42954f211ba53026d
-      internalID: 856265450
+      spriteID: 384c1543ebade1643a8483d9eaeabbbb
+      internalID: -963912704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Attack 1
+      name: MarioAttack1
       rect:
         serializedVersion: 2
         x: 61
@@ -1124,14 +1124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e918b01b8d739be4f803b2e6cc1b62f7
-      internalID: 984198521
+      spriteID: 80a88bcda109aac46b38f049d4163c9d
+      internalID: 486772737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Attack 2
+      name: MarioAttack2
       rect:
         serializedVersion: 2
         x: 79
@@ -1145,14 +1145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc0738f1d16af274190b7c60574769a0
-      internalID: 1760909529
+      spriteID: 5b759993c37c84e4c8f674eb2ecee9d6
+      internalID: -131528061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Attack 3
+      name: MarioAttack3
       rect:
         serializedVersion: 2
         x: 97
@@ -1166,8 +1166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 595efaf4b89dcf44bba9d3422484edf8
-      internalID: 98056087
+      spriteID: d9a06e1ba755adc478022cb50e981e9a
+      internalID: -1396282304
       vertices: []
       indices: 
       edges: []
@@ -1187,8 +1187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b00f1ab9d3c3e3e448574a102e843c92
-      internalID: -914455468
+      spriteID: e3ff2fcf0f775d14fb250efb3103cf7f
+      internalID: 1621970814
       vertices: []
       indices: 
       edges: []
@@ -1208,8 +1208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71da1f5dcb44d4d428622d634c4d2451
-      internalID: -587809711
+      spriteID: adfdb23484a3c3346aa4395d91772973
+      internalID: -1901042755
       vertices: []
       indices: 
       edges: []
@@ -1229,17 +1229,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cef261737fe484141b1be8027b26a407
-      internalID: -1137281519
+      spriteID: af96d88a1a3c5fc4eb32b23033c3b556
+      internalID: -784288122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpAttack 1
+      name: MarioJumpAttack1
       rect:
         serializedVersion: 2
-        x: 184
+        x: 185
         y: 10
         width: 28
         height: 28
@@ -1250,14 +1250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54b4091138f0fc14abd9e8e8cbe36879
-      internalID: 877810204
+      spriteID: 47ee5a7c221bcb9439bb8a501cba4bee
+      internalID: -1230075720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpAttack 2
+      name: MarioJumpAttack2
       rect:
         serializedVersion: 2
         x: 218
@@ -1271,14 +1271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf5d6149832b91341a05ce3e0f5eb32c
-      internalID: 1788110193
+      spriteID: dcdf55b84094bdf419cf96cd77fb5b02
+      internalID: -2046397361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpAttack 3
+      name: MarioJumpAttack3
       rect:
         serializedVersion: 2
         x: 253
@@ -1292,14 +1292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d442c10b1838d742850cf11086b00c0
-      internalID: 468940340
+      spriteID: 2efe8c6db075ce743a6cc62c78ed855a
+      internalID: 2073369217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpAttack 4
+      name: MarioJumpAttack4
       rect:
         serializedVersion: 2
         x: 286
@@ -1313,14 +1313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abde9f5d4f074dd45a7aef10fd8899d9
-      internalID: 1665201200
+      spriteID: 0bdeb2723a02bbf459377f16820dc4c0
+      internalID: -828734830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpAttack 5
+      name: MarioJumpAttack5
       rect:
         serializedVersion: 2
         x: 315
@@ -1334,14 +1334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43c7053254cabf7488b4c9a2202d4438
-      internalID: 1237001635
+      spriteID: 34bb20aea9f9b5a4ea4f0796eccfe424
+      internalID: 1506500165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpAttack 6
+      name: MarioJumpAttack6
       rect:
         serializedVersion: 2
         x: 345
@@ -1355,8 +1355,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 425a4138195cd394daab7cab78aa9f0b
-      internalID: -1068713413
+      spriteID: 9f3f61d8f4af1a5499192835b88c22b6
+      internalID: -1094189132
       vertices: []
       indices: 
       edges: []
@@ -1376,8 +1376,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65d5226c586b6d44295652434b92b6ec
-      internalID: 552563613
+      spriteID: e4777e57115fc3046b40892b60eb915d
+      internalID: 614171823
       vertices: []
       indices: 
       edges: []
@@ -1397,8 +1397,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb2827aa6ea926349b1113435a762684
-      internalID: 595951081
+      spriteID: 976cf5a99e8bf8a408bb7f7b84308d2f
+      internalID: 723353828
       vertices: []
       indices: 
       edges: []
@@ -1414,67 +1414,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      JumpAttack 1: 877810204
-      JumpAttack 2: 1788110193
-      JumpAttack 3: 468940340
-      JumpAttack 4: 1665201200
-      JumpAttack 5: 1237001635
-      JumpAttack 6: -1068713413
-      Mario Attack 1: 984198521
-      Mario Attack 2: 1760909529
-      Mario Attack 3: 98056087
-      Mario Idle: 1070071243
-      Mario Jump: -1377154278
-      Mario Walk 1: 964352596
-      Mario Walk 2: -1732618288
-      Mario Walk 3: -2109461655
-      Mario Walk 4: -666243095
-      Mario Walk 5: 1387550963
-      Mario Walk 6: -45170962
-      Sprite_Mario_10: -1253566269
-      Sprite_Mario_11: -112003573
-      Sprite_Mario_12: 1695233379
-      Sprite_Mario_13: 440683464
-      Sprite_Mario_14: 1377979241
-      Sprite_Mario_15: -1471603831
-      Sprite_Mario_16: 294983345
-      Sprite_Mario_17: -252882349
-      Sprite_Mario_18: -747044575
-      Sprite_Mario_19: 1831461464
-      Sprite_Mario_20: 1154713791
-      Sprite_Mario_21: -446980800
-      Sprite_Mario_22: -949096939
-      Sprite_Mario_23: -674564692
-      Sprite_Mario_24: -1022175910
-      Sprite_Mario_25: 701333914
-      Sprite_Mario_26: -1867965
-      Sprite_Mario_27: 1626822018
-      Sprite_Mario_28: -775899314
-      Sprite_Mario_29: 2080283530
-      Sprite_Mario_30: 1183395338
-      Sprite_Mario_31: -2111978834
-      Sprite_Mario_32: -1750171462
-      Sprite_Mario_33: 735723591
-      Sprite_Mario_34: -1751635843
-      Sprite_Mario_35: -123146267
-      Sprite_Mario_36: 764258658
-      Sprite_Mario_37: -1932412095
-      Sprite_Mario_38: 1182605277
-      Sprite_Mario_39: -469312516
-      Sprite_Mario_40: 149002912
-      Sprite_Mario_41: -1976541753
-      Sprite_Mario_42: -1943155775
-      Sprite_Mario_43: -1208888732
-      Sprite_Mario_44: 326634251
-      Sprite_Mario_45: -925898548
-      Sprite_Mario_46: 856265450
-      Sprite_Mario_50: -914455468
-      Sprite_Mario_51: -587809711
-      Sprite_Mario_52: -1137281519
-      Sprite_Mario_59: 552563613
-      Sprite_Mario_60: 595951081
-      Sprite_Mario_7: -1274039605
-      Sprite_Mario_9: -398171589
+      MarioAttack1: 486772737
+      MarioAttack2: -131528061
+      MarioAttack3: -1396282304
+      MarioJump: 1756898110
+      MarioJumpAttack1: -1230075720
+      MarioJumpAttack2: -2046397361
+      MarioJumpAttack3: 2073369217
+      MarioJumpAttack4: -828734830
+      MarioJumpAttack5: 1506500165
+      MarioJumpAttack6: -1094189132
+      MarioWalk1: 1128307663
+      MarioWalk2: 1269329684
+      MarioWalk3: -418293480
+      Sprite_Mario_0: 1211913133
+      Sprite_Mario_1: -856775658
+      Sprite_Mario_10: -1320532403
+      Sprite_Mario_11: 220898447
+      Sprite_Mario_12: -1941689222
+      Sprite_Mario_13: 1493511863
+      Sprite_Mario_14: -600930132
+      Sprite_Mario_15: 102059860
+      Sprite_Mario_16: -1238790553
+      Sprite_Mario_17: 488318157
+      Sprite_Mario_18: 876138087
+      Sprite_Mario_19: -69035351
+      Sprite_Mario_2: 1314114186
+      Sprite_Mario_20: -1087013856
+      Sprite_Mario_21: 1785340787
+      Sprite_Mario_22: -2081056595
+      Sprite_Mario_23: 1870941526
+      Sprite_Mario_24: -787441596
+      Sprite_Mario_25: -855528564
+      Sprite_Mario_26: 190784802
+      Sprite_Mario_27: 1252724527
+      Sprite_Mario_28: 1628079826
+      Sprite_Mario_29: -1980888037
+      Sprite_Mario_3: -1367110842
+      Sprite_Mario_30: -1721188502
+      Sprite_Mario_31: -1678788709
+      Sprite_Mario_32: -674560971
+      Sprite_Mario_33: 265483416
+      Sprite_Mario_34: -1415814737
+      Sprite_Mario_35: 727922480
+      Sprite_Mario_36: 1950146717
+      Sprite_Mario_37: 2036299052
+      Sprite_Mario_38: -188971596
+      Sprite_Mario_39: 1145324717
+      Sprite_Mario_4: -1977844920
+      Sprite_Mario_40: 283787312
+      Sprite_Mario_41: 1071243907
+      Sprite_Mario_42: -1793286311
+      Sprite_Mario_43: 1737570806
+      Sprite_Mario_44: -466241957
+      Sprite_Mario_45: -1475012496
+      Sprite_Mario_46: -963912704
+      Sprite_Mario_5: 91120079
+      Sprite_Mario_50: 1621970814
+      Sprite_Mario_51: -1901042755
+      Sprite_Mario_52: -784288122
+      Sprite_Mario_59: 614171823
+      Sprite_Mario_6: -1829725815
+      Sprite_Mario_60: 723353828
+      Sprite_Mario_7: -723055582
+      Sprite_Mario_9: -825123566
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

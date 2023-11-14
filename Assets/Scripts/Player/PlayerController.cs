@@ -10,7 +10,43 @@ public class PlayerController : MonoBehaviour
     SpriteRenderer sr;
     Animator anim;
 
+    Coroutine jumpForceChange;
 
+
+    private int _score = 0;
+    public int score
+    {
+        get => _score;
+        set
+        {
+            _score = value;
+            Debug.Log("Score has ben set to: " + _score.ToString());
+        }
+    }
+
+    private int _lives = 3;
+
+    public int lives
+    {
+        get => _lives;
+        set
+        {
+            //if (_lives > value)
+            //Respawn = lost a life
+
+            _lives = value;
+
+            if (_lives > maxLives)
+                _lives = maxLives;
+
+            //if (_lives < 0)
+            //gameover
+
+            Debug.Log("Lives has ben set to: " + _lives.ToString());
+        }
+    }
+    public int maxLives = 5;
+    
     //Movement variables
     public float speed = 5.0f;
     public float jumpForce = 300.0f;
@@ -55,7 +91,7 @@ public class PlayerController : MonoBehaviour
             obj.transform.localPosition = Vector3.zero;
             obj.name = "GroundCheck";
             groundCheck = obj.transform;
-        }
+        }    
     }
 
     // Update is called once per frame
@@ -63,10 +99,10 @@ public class PlayerController : MonoBehaviour
     {
         AnimatorClipInfo[] curPlayingClips = anim.GetCurrentAnimatorClipInfo(0);
         float hInput = Input.GetAxisRaw("Horizontal");
-
+        
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, isGroundLayer);
         if (isGrounded) rb.gravityScale = 1;
-
+        
 
         if (curPlayingClips.Length > 0)
         {
@@ -107,22 +143,43 @@ public class PlayerController : MonoBehaviour
         rb.gravityScale = 10;
     }
 
+    public void StartJumpForceChange()
+    {
+        if (jumpForceChange == null) jumpForceChange = StartCoroutine(JumpForceChange());
+        else
+        {
+            StopCoroutine(jumpForceChange);
+            jumpForceChange = null;
+            jumpForce /= 2;
+            jumpForceChange = StartCoroutine(JumpForceChange());
+        }
+
+    }
+    
+    IEnumerator JumpForceChange()
+    {
+        jumpForce *= 2;
+        yield return new WaitForSeconds(5.0f);
+        jumpForce /= 2;
+        jumpForceChange = null;
+    }
+
     //called the frame that the collision happens
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
+        
     }
 
     //called the frame that the collision exits
     private void OnCollisionExit2D(Collision2D collision)
     {
-
+        
     }
-
+    
     //called on the second frame while in the collision, and continously called while you remain in the collider.
     private void OnCollisionStay2D(Collision2D collision)
     {
-        Debug.Log(collision.gameObject.name);
+        //Debug.Log(collision.gameObject.name);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -132,11 +189,11 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-
+        
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-
+        
     }
 }
